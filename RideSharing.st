@@ -46,7 +46,10 @@ Object subclass: Driver [
     addRide: aRide [ assignedRides add: aRide ]
     getDriverInfo [
         Transcript show: 'Driver '; show: driverID; show: ': '; show: name;
-            show: ' | Rating: '; show: rating printString;
+        show: ' | Rating: ';
+        show: rating truncated printString;
+        show: '.';
+        show: ((rating * 10) rounded \\ 10) printString;
             show: '/5 | Completed rides: '; show: assignedRides size printString; nl.
     ]
 ]
