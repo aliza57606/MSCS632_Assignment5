@@ -1,0 +1,11 @@
+=== Polymorphic ride list ===
+Standard R101 | Station -> Library | 5.00 miles | Fare: $13.00
+Premium  R102 | Airport -> Hotel | 8.00 miles | Fare: $34.00
+
+=== Driver ===
+Driver D201: Jordan | Rating: 4.8/5 | Completed rides: 2
+
+=== Rider ===
+Ride history for Taylor (U301):
+Standard R101 | Station -> Library | 5.00 miles | Fare: $13.00
+Premium  R102 | Airport -> Hotel | 8.00 miles | Fare: $34.00
